@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playlists | Arapuca Digital</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    .playlist-card {
+      background-size: cover;
+      background-position: center;
+      transition: all 0.3s ease;
+    }
+    .playlist-card:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+  <div class="container mx-auto px-4 py-12">
+    <!-- Header Section -->
+    <header class="text-center mb-16">
+      <h1 class="text-white text-5xl md:text-6xl font-bold mb-4">+ Eclético que isso, não existe!!!</h1>
+    </header>
+
+    <!-- Playlists Section -->
+    <main class="max-w-4xl mx-auto space-y-6">
+      <!-- Spotify Playlist -->
+      <a href="https://open.spotify.com/playlist/7sQb9miME1youkhRcRJQ03" target="_blank" class="block">
+        <div class="playlist-card bg-gradient-to-r from-green-500 to-black rounded-2xl p-8 shadow-xl relative overflow-hidden">
+          <div class="absolute inset-0 bg-[url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1024px-Spotify_logo_without_text.svg.png')] bg-no-repeat bg-right opacity-20"></div>
+          <div class="relative">
+            <h2 class="text-2xl font-bold mb-2">Playlist de Kpop com indie? (Não sei)</h2>
+            <p class="text-gray-300">As melhores músicas selecionadas a dedo, by Paloma ☝️</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- SoundCloud Playlist -->
+      <a href="https://soundcloud.com/paulista_do_evo_vii/sets/tipo-isso-tlgd" target="_blank" class="block">
+        <div class="playlist-card bg-gradient-to-r from-orange-500 to-black rounded-2xl p-8 shadow-xl relative overflow-hidden">
+          <div class="absolute inset-0 bg-[url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/SoundCloud_logo_2019.svg/1024px-SoundCloud_logo_2019.svg.png')] bg-no-repeat bg-right opacity-20"></div>
+          <div class="relative">
+            <h2 class="text-2xl font-bold mb-2">Playlist de Plugg & Pluggnb & Várias fita que vc nunca deve ter ouvido falar </h2>
+            <p class="text-gray-300">As tracks mais chaves do underground BR que vc vai ouvir 🔑🔌 </p>
+          </div>
+        </div>
+      </a>
+
+      <!-- Mixed Playlist -->
+      <a href="https://open.spotify.com/playlist/37i9dQZF1EJJum9AfW6whF?si=22f82368bf484bcf" class="block">
+        <div class="playlist-card bg-gradient-to-r from-rose-600 to-black rounded-2xl p-8 shadow-xl">
+          <h2 class="text-2xl font-bold mb-2">Playlist de Match - Luka & Paloma ˖ ࣪⭑★</h2>
+          <p class="text-gray-300">Talvez seja a melhor definição de ecleticidade já vista 🚫🧢</p>
+        </div>
+      </a>
+    </main>
+
+    <!-- Back Button -->
+    <div class="mt-12 text-center">
+      <a href="index.html" class="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-3 px-6 rounded-full transition">
+        <i class="fas fa-arrow-left mr-2"></i> Voltar pra Arapuca
+      </a>
+    </div>
+  </div>
+</body>
+</html>
