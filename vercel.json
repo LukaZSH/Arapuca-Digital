@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "public": "static",
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
